@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import { Header } from "./components/header/Header";
+import { BackgroundPicture } from "./components/header/BackgroundPicture";
+import { DataContext } from './components/contexts/DataContext'
+import { useFetch } from './components/customHook/useFetch';
+import { Service } from './components/Service'
+import { Footer } from './components/footer/Footer';
+import { useState } from 'react';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const data = useFetch()
+
+    let [itemsInCartCounter, setCounter] = useState(0)
+    const getIndex=(items) =>{
+        setCounter(items.length)
+    }
+
+    return (
+        <DataContext.Provider value={data}>
+            <Header itemsInCartCounter={itemsInCartCounter}/>
+            <BackgroundPicture />
+            <Service getIndex={getIndex}/>
+            <Footer />
+        </DataContext.Provider>
+    );
 }
 
 export default App;
