@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.de143d1b.css",
+    "main.js": "/static/js/main.59cd1d0e.js",
+    "static/js/787.c1112931.chunk.js": "/static/js/787.c1112931.chunk.js",
+    "static/media/bg1.avif": "/static/media/bg1.8e28328c1225d6b94c9b.avif",
+    "static/media/mezeta.webp": "/static/media/mezeta.b4c3d1bf7caa044915f1.webp",
+    "static/media/svinska-skara.webp": "/static/media/svinska-skara.c20e7668196b788c5336.webp",
+    "static/media/svinski-mezeta.webp": "/static/media/svinski-mezeta.3f53b7c181ed5c12b2bc.webp",
+    "static/media/pileshki-mezeta.webp": "/static/media/pileshki-mezeta.f56b587b184d2afb59b7.webp",
+    "static/media/pileshki-qstiq.webp": "/static/media/pileshki-qstiq.fef9c92205f529d70f29.webp",
+    "static/media/rizoto.webp": "/static/media/rizoto.a2f1fc5d2cc86953b416.webp",
+    "static/media/kartofeni.webp": "/static/media/kartofeni.58698d535c85875c6b5c.webp",
+    "static/media/pitki.webp": "/static/media/pitki.eb4ec1c02caedffae6ac.webp",
+    "static/media/svinski-qstiq.webp": "/static/media/svinski-qstiq.7f77de15cd6768620dad.webp",
+    "static/media/pileshka-skara.webp": "/static/media/pileshka-skara.b4b157d431607f73b2d5.webp",
+    "static/media/bezmesni.webp": "/static/media/bezmesni.c785abb553eabb4f907d.webp",
+    "static/media/sachove.webp": "/static/media/sachove.471711cd4c6f93d1c586.webp",
+    "static/media/spageti.webp": "/static/media/spageti.39a7ddec028246397e83.webp",
+    "static/media/deserti.webp": "/static/media/deserti.412371c2b1e7831e7055.webp",
+    "static/media/garnituri.webp": "/static/media/garnituri.8c7642e219fb5055f637.webp",
+    "static/media/salati.webp": "/static/media/salati.a41aaecaaad4ab1fb210.webp",
+    "index.html": "/index.html",
+    "main.de143d1b.css.map": "/static/css/main.de143d1b.css.map",
+    "main.59cd1d0e.js.map": "/static/js/main.59cd1d0e.js.map",
+    "787.c1112931.chunk.js.map": "/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de143d1b.css",
+    "static/js/main.59cd1d0e.js"
+  ]
+}
