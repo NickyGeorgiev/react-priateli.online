@@ -27,15 +27,15 @@ export const Form = ({ purchase }) => {
             <p className="required">Полетата със * са задължителни за попълване!</p>
             <form className="client-info" name="export" method="POST">
                 <label htmlFor="first">Име *</label><br />
-                <input type="text" id="firstName" name="firstName" /><br />
+                <input type="text" id="firstName" name="firstName" required/><br />
                 <label htmlFor="last">Фамилия</label><br />
                 <input type="text" id="lastName" name="lastName" /><br />
                 <label htmlFor="tel">Телефон *</label><br />
-                <input type="number" id="tel" name="tel" /><br />
+                <input type="number" id="tel" name="tel" required/><br />
                 <label htmlFor="address">Улица *</label><br />
-                <input type="text" id="address" name="address" /><br />
+                <input type="text" id="address" name="address" required/><br />
                 <label htmlFor="adress-number">№ *</label><br />
-                <input type="number" id="address-number" name="address-number" /><br />
+                <input type="number" id="address-number" name="address-number" required/><br />
                 <input className="submit" type="submit" value="Завършете поръчката" />
             </form>
         </div>
